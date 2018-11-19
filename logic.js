@@ -1,4 +1,4 @@
-let giphyArr = ["Mom", "Dad", "Taylor", "Abbie", "Lexy", "Grandma Rini", "Grand- parents", "Matt", "Sarah", "Rachael", "Grayson", "Sasha", "Jordan", "Friends"]
+// let giphyArr = ["Mom", "Dad", "Taylor", "Abbie", "Lexy", "Grandma Rini", "Grand- parents", "Matt", "Sarah", "Rachael", "Grayson", "Sasha", "Jordan", "Friends"]
 let btnColor = ["#ff6600", "#00cccf", "#fed700"]
 let extraVideos = [
     {"name": "Lexy Poetry",
@@ -16,11 +16,10 @@ let extraVideos = [
     {"name": "Abbie Sax 3",
         "source": "https://www.youtube.com/embed/bno9LeE-buM"}
     ]       
-        // "Abbie Flute 2", "Abbie Flute 3", "Abbie Sax 1", "Abbie Sax 2", "Abbie Sax 3"]
 
 // makes buttons when page is loaded
 $(document).ready(function (){
-    makeButtons()
+    // makeButtons()
     makeExtraButtons()
 })
 

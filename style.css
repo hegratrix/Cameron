@@ -5,6 +5,19 @@
     margin-right: auto;
 }
 
+#myVideo {
+    width: 399px;
+    margin-top: -6px;
+    background-color: #1e8abd;
+    border-radius: 10px;
+    margin-left: -10px;
+}
+
+iframe {
+    margin-left: -10px;
+    margin-top: -6px;
+}
+
 .still {
     width: 100%;
     display: block;
@@ -14,8 +27,8 @@
 
 .gif-div {
     display: inline-block;
-    width: 430px;
-    height: 360px;
+    width: 441px;
+    height: 345px;
     border: 30px solid transparent;
     margin: 15px;
     position: relative;
@@ -139,8 +152,8 @@ input {
 
 .gif-div2 {
     display: inline-block;
-    width: 620px;
-    height: 370px;
+    width: 602px;
+    height: 360px;
     border: 30px solid transparent;
     margin: 15px;
     position: relative;
@@ -167,8 +180,8 @@ input {
         padding-left: 0px;
     }
     .gif-div {
-        width: 325px;
-        height: 356px;
+        width: 317px;
+        height: 321px;
         margin-left: 22px;
     }
     #myVideo {
@@ -176,12 +189,12 @@ input {
         height: 275px;
     }
     iframe {
-        width: 270px;
+        width: 285px;
         height: 200px;
     }
     .gif-div2 {
         width: 328px;
-        height: 258px;
+        height: 246px;
         margin-left: 18px;
     }
 }

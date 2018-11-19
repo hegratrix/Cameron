@@ -1,4 +1,4 @@
-// let giphyArr = ["Mom", "Dad", "Taylor", "Abbie", "Lexy", "Grandma Rini", "Grand- parents", "Matt", "Sarah", "Rachael", "Grayson", "Sasha", "Jordan", "Friends"]
+let giphyArr = ["Mom", "Dad", "Taylor", "Abbie", "Lexy", "Grandma Rini", "Grand- parents", "Matt", "Sarah", "Rachael", "Grayson", "Sasha", "Jordan", "Friends"]
 let btnColor = ["#ff6600", "#00cccf", "#fed700"]
 let extraVideos = [
     {"name": "Lexy Poetry",

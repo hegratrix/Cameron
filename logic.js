@@ -70,9 +70,7 @@ function getVideos (videoName){
         if (extraVideos[i].name === videoName) {
             $('#greeting-gifs').append (`
                 <div class="gif-div2" style="border-image: url(./images/frame${frame}.png) 240 round;">
-                    <div id ="pic-div">
-                    <iframe width="560" height="315" src="${extraVideos[i].source}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>                    
+                    <iframe width="560" height="315" src="${extraVideos[i].source}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                 </div>
             `)
         }

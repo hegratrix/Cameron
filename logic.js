@@ -19,7 +19,7 @@ let extraVideos = [
 
 // makes buttons when page is loaded
 $(document).ready(function (){
-    // makeButtons()
+    makeButtons()
     makeExtraButtons()
 })
 

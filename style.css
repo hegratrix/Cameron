@@ -26,12 +26,14 @@ iframe {
 }
 
 .gif-div {
-    display: inline-block;
-    width: 441px;
-    height: 345px;
+    display: block;
+    width: 442px;
+    height: 445px;
     border: 30px solid transparent;
     margin: 15px;
     position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 body {
@@ -81,7 +83,8 @@ body {
 }
 
 #btn-div {
-    padding-left: 65px;
+    padding-left: 129px;
+    padding-right: 121px;
     border-right: 2px solid #695b5a;
 }
 
@@ -131,7 +134,7 @@ input {
 }
 
 #greeting-gifs {
-    padding-left: 55px;
+    padding-left: 87px;
 }
 
 .click {
@@ -143,19 +146,21 @@ input {
 
 #pic {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 20px;
+    margin-left: 25px;
+    margin-top: 35px;
     width: 400px;
     border: 6px solid #1e8abd;
 }
 
 .gif-div2 {
     display: inline-block;
-    width: 602px;
-    height: 360px;
+    width: 643px;
+    height: 446px;
     border: 30px solid transparent;
     margin: 15px;
+    margin-left: -80px;
+    margin-top: 26px;
     position: relative;
 }
 
@@ -176,7 +181,7 @@ input {
     #btn-div {
         padding-left: 55px;
     }
-    #greeting-gifs {
+    #greeting-gifs, #greeting-gifs2 {
         padding-left: 0px;
     }
     .gif-div {

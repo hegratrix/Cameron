@@ -41,7 +41,7 @@ function getPictures (name){
         $('#greeting-gifs').append (`
             <div class="gif-div" style="border-image: url(./images/frame${frame}.png) 240 round;">
                 <div id ="pic-div">
-                <video id="myVideo" width="380" height="300" autoplay>
+                <video id="myVideo" width="600" height="400" autoplay>
                     <source src="./videos/${name}.mp4" type="video/mp4">
                 </video>
                 </div>                    
@@ -69,7 +69,7 @@ function getVideos (videoName){
         if (extraVideos[i].name === videoName) {
             $('#greeting-gifs').append (`
                 <div class="gif-div2" style="border-image: url(./images/frame${frame}.png) 240 round;">
-                    <iframe width="560" height="315" src="${extraVideos[i].source}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                    <iframe width="600" height="400" src="${extraVideos[i].source}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
                 </div>
             `)
         }
